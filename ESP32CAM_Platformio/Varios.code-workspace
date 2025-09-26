@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../MQTT_Relay"
+		},
+		{
+			"name": "ESP32-CAM-IP-Camera",
+			"path": "."
+		},
+		{
+			"name": "esp32-cam-webserver-master",
+			"path": "../../../../Descargas/esp32-cam-webserver-master"
+		}
+	],
+	"settings": {}
+}
