@@ -1,0 +1,19 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "wifi/wifi.c"
+        "uart_bridge/uart_bridge.c"
+        "tcp_client/tcp_client.c"
+    INCLUDE_DIRS 
+        "."
+        "wifi"
+        "uart_bridge"
+        "tcp_client"
+    REQUIRES 
+        nvs_flash
+        esp_wifi
+        esp_netif
+        esp_event
+        driver
+        esp_timer        
+)
